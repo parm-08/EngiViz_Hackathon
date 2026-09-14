@@ -16,6 +16,10 @@
 - **Interactive Plotly charts** — trend lines, bar charts, scatter plots, box plots, and a data table, each with custom hover tooltips, unified hover on trend charts, and cross-hair spike lines.
 - **Polished dark UI** — a glassmorphic, gradient-based design with hover animations on every card, KPI, and section heading.
 - **Honest about its limits** — the dashboard flags upfront that ~5 years of data means these are early signals, not confirmed long-term climate trends, and documents the precipitation-hours humidity proxy it uses.
+
+## DEPLOYED LINK 
+https://engivizhackathon.streamlit.app/
+
 ## SCREENSHOTS 
 <img width="947" height="718" alt="Screenshot 2026-09-14 122236" src="https://github.com/user-attachments/assets/680adbd9-114f-4e08-aa72-1d7954e0262f" />
 <img width="933" height="593" alt="Screenshot 2026-09-14 122309" src="https://github.com/user-attachments/assets/cc99421d-09ce-408e-9ea2-ebc5d073151d" />
