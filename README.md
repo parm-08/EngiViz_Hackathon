@@ -1,118 +1,272 @@
-# 🌦️ Kolkata Weather Dashboard
+# 🌦️ Kolkata: When Heat Meets Water
 
-**Signals hidden in the record.** An interactive Streamlit dashboard that digs into a 5-year daily weather record for Kolkata to answer three specific questions: is the monsoon arriving earlier, do humid days predict cold snaps, and are winters warming?
+> **Signals hidden in the record.**
 
+An interactive **Streamlit weather analytics dashboard** that explores a 5-year daily weather record for Kolkata (2021–2025), revealing how **temperature, rainfall, sunshine, wind, and seasonal patterns** shape the city's weather rhythm.
+
+The dashboard turns raw weather data into a visual story — from scorching summer heat to the monsoon's arrival and the transition from heat-dominated to rain-dominated conditions.
 
 ---
 
-## ✨ Features
+## 🚀 Live Demo
 
-- **Three data-driven chapters**, each built around one question:
-  - 🌧️ **Monsoon Timing** — is onset shifting earlier or later, year over year?
-  - ❄️ **Humidity & Cold Snaps** — do humid, rainy days predict sharp temperature dips?
-  - 🌡️ **Winter Warming** — are average winter minimum temperatures trending up?
-- **Live filter bar** — a year-range slider, season focus, and adjustable cold-snap window that recompute every KPI, chart, and the closing summary in real time.
-- **Four headline KPIs** — monsoon onset shift, total onset shift, winter warming trend, and a humidity–cold-dip correlation, all derived directly from the data.
-- **Interactive Plotly charts** — trend lines, bar charts, scatter plots, box plots, and a data table, each with custom hover tooltips, unified hover on trend charts, and cross-hair spike lines.
-- **Polished dark UI** — a glassmorphic, gradient-based design with hover animations on every card, KPI, and section heading.
-- **Honest about its limits** — the dashboard flags upfront that ~5 years of data means these are early signals, not confirmed long-term climate trends, and documents the precipitation-hours humidity proxy it uses.
+👉 **[View the Live Dashboard](https://engivizhackathon.streamlit.app/)**
 
-## DEPLOYED LINK 
-https://engivizhackathon.streamlit.app/
+---
 
-## SCREENSHOTS 
-<img width="947" height="718" alt="Screenshot 2026-09-14 122236" src="https://github.com/user-attachments/assets/680adbd9-114f-4e08-aa72-1d7954e0262f" />
-<img width="933" height="593" alt="Screenshot 2026-09-14 122309" src="https://github.com/user-attachments/assets/cc99421d-09ce-408e-9ea2-ebc5d073151d" />
-<img width="917" height="661" alt="Screenshot 2026-09-14 122318" src="https://github.com/user-attachments/assets/717eed18-2b3e-4799-9adb-8556d055b697" />
+## 📌 Project Overview
 
-## SCREEN RECORDING
+Kolkata's weather follows a strong seasonal rhythm.
 
+This dashboard explores that rhythm through interactive visualizations and data-driven questions such as:
 
-https://github.com/user-attachments/assets/16d030cd-bba9-4548-bdf0-377f0c880a98
+- 🌧️ **Is the monsoon arriving earlier over the years?**
+- 🌡️ **Are Kolkata's winters getting warmer?**
+- 💧 **How does rainfall and precipitation relate to temperature changes?**
+- ☀️ **When does Kolkata receive the most sunshine?**
+- 🌦️ **How does the city transition from extreme heat to the monsoon?**
 
+Rather than presenting charts independently, the dashboard is designed as a **data story**, guiding the viewer from summer heat → monsoon transition → yearly patterns → research questions.
 
+---
 
-## 🧠 How the analysis works
+# ✨ Key Features
 
-| Question | Method |
+### 📊 Interactive Weather Dashboard
+
+- Interactive year and season filters
+- Dynamic KPIs and visualizations
+- Plotly-based interactive charts
+- Hover tooltips with detailed values
+- Responsive dark-themed interface
+- Story-driven dashboard structure
+
+### 🌡️ Four Headline Weather Indicators
+
+The dashboard highlights four major weather extremes:
+
+- **Hottest Day**
+- **Heaviest Rainfall**
+- **Maximum Sunshine**
+- **Strongest Wind Gust**
+
+These provide a quick snapshot of the most extreme conditions found in the dataset.
+
+### 📈 Temperature Analysis
+
+Explore:
+
+- Daily maximum temperature
+- Daily average temperature
+- Daily minimum temperature
+- Seasonal temperature patterns
+- Year-to-year temperature variation
+
+### 🌧️ Rainfall & Monsoon Analysis
+
+The dashboard examines:
+
+- Daily rainfall
+- Extreme rainfall events
+- Seasonal rainfall contribution
+- Monsoon rainfall dominance
+- Monsoon onset timing
+- Rainfall trends across years
+
+### ☀️ Sunshine Analysis
+
+Visualize:
+
+- Average daily sunshine duration
+- Monthly sunshine patterns
+- Changes in sunshine during the monsoon
+- The relationship between sunshine and seasonal weather
+
+### 📅 Seasonal Transition
+
+One of the central stories of the dashboard is the transition between:
+
+**Summer Heat → Monsoon → Rainfall Peak → Reduced Sunshine**
+
+The dashboard compares April and August to show how dramatically Kolkata's weather changes within a few months.
+
+### 🔬 Research Deep-Dive
+
+The dashboard investigates key research questions using statistical trends, including:
+
+- **Monsoon onset timing**
+- **Winter minimum temperature trends**
+
+Trend lines are fitted across yearly observations to identify potential changes in the weather pattern.
+
+---
+
+# 📖 Dashboard Story
+
+The dashboard is organized into four chapters.
+
+## Chapter 1 — The Heat
+
+### Kolkata's Heat Has a Seasonal Rhythm
+
+Daily maximum, average, and minimum temperatures reveal Kolkata's repeating annual temperature cycle.
+
+This section identifies:
+
+- Hottest recorded day
+- Daily temperature variation
+- Extreme heat periods
+- Temperature behavior across years
+
+---
+
+## Chapter 2 — The Turning Point
+
+### April vs August: Two Different Faces of Kolkata
+
+Within just a few months, Kolkata transitions from a heat-dominated environment to a rain-dominated monsoon season.
+
+The dashboard compares:
+
+### April — Heat Peak
+
+- High average maximum temperature
+- Lower rainfall
+- Longer sunshine duration
+
+### August — Rainfall Peak
+
+- Lower average maximum temperature
+- Extremely high rainfall
+- Reduced sunshine duration
+
+This creates the central story of the dashboard:
+
+> **Heat gives way to water.**
+
+---
+
+## Chapter 3 — The Monsoon
+
+### Rainfall, Sunshine & the Year-on-Year Picture
+
+This section explores:
+
+- Seasonal contribution to total rainfall
+- Monthly sunshine duration
+- Year-by-year temperature variation
+- Year-by-year rainfall variation
+
+The analysis shows that the **monsoon contributes the majority of Kolkata's recorded rainfall** during the study period.
+
+---
+
+## Chapter 4 — Research Deep-Dive
+
+### Answering the Key Research Questions
+
+The dashboard uses statistical analysis to investigate longer-term patterns within the available dataset.
+
+#### Q1 — Is the Monsoon Arriving Earlier?
+
+Monsoon onset is defined as the first date after April 1 where **3-day rolling rainfall reaches at least 20 mm**.
+
+A linear trend is then fitted across yearly onset dates.
+
+The dashboard indicates an **earlier-onset signal**, but this should be interpreted cautiously because the dataset covers only a limited number of years.
+
+#### Q2 — Are Kolkata's Winters Getting Warmer?
+
+Winter is defined using:
+
+- December
+- January
+- February
+
+The analysis calculates the average winter minimum temperature for each year and fits a linear trend.
+
+The result suggests a **warming signal in winter minimum temperatures**, although the short time span means this should not be interpreted as definitive evidence of long-term climate change.
+
+---
+
+# 🧠 How the Analysis Works
+
+| Research Question | Method |
 |---|---|
-| Monsoon onset | First day after April 1 where 3-day rolling rainfall ≥ 20mm; trend fit with a linear regression across years |
-| Humidity vs. cold dips | "Dip" = how far a day's min. temperature falls below its 15-day centered rolling average; correlated against precipitation hours (used as a documented proxy for humidity, since the dataset has no humidity column) |
-| Winter warming | Winters are grouped as Dec (of the prior year) + Jan + Feb; only winters with ≥ 80 days of data are included; trend fit with a linear regression across winter-years |
+| **Monsoon onset** | First date after April 1 where 3-day rolling rainfall reaches ≥ 20 mm |
+| **Monsoon trend** | Linear regression across yearly monsoon-onset dates |
+| **Winter warming** | Average minimum temperature during Dec–Feb |
+| **Winter trend** | Linear regression across yearly winter minimum temperatures |
+| **Seasonal rainfall** | Total rainfall grouped by season |
+| **Sunshine analysis** | Average daily sunshine duration grouped by month |
+| **Extreme weather** | Maximum/minimum values calculated from daily observations |
 
-The first year in the dataset is excluded from monsoon-onset calculations since it's a partial year (record starts mid-year), which would otherwise bias the result.
+The first incomplete year is excluded from monsoon-onset calculations where necessary to avoid bias caused by partial-year data.
 
-## 🚀 Getting Started
+---
 
-### Prerequisites
+# 📊 Key Findings
 
-- Python 3.9+
-- A CSV file named `kolkata_weather.csv` in the project root (or update the path in `load_data()`), with at least these columns:
+Some of the major observations highlighted by the dashboard include:
 
-  ```
-  time, temperature_2m_max, temperature_2m_mean, temperature_2m_min,
-  rain_sum, precipitation_sum, precipitation_hours,
-  sunshine_duration, wind_gusts_10m_max (or wind_speed_10m_max)
-  ```
+- 🌡️ Kolkata experiences a strong recurring annual temperature cycle.
+- 🔥 Summer contains the most extreme heat conditions.
+- 🌧️ The monsoon dominates Kolkata's annual rainfall.
+- ☀️ Sunshine duration changes substantially throughout the year.
+- 🌦️ April and August represent dramatically different weather regimes.
+- 📉 The calculated monsoon-onset trend suggests an earlier onset over the recorded years.
+- 🌡️ Winter minimum temperatures show a positive trend in the available data.
 
-  This dashboard was built against daily data pulled from the [Open-Meteo Historical Weather API](https://open-meteo.com/), but any source with matching column names will work.
+> ⚠️ These findings represent patterns within the available dataset and should not be treated as definitive long-term climate conclusions.
 
-### Installation
+---
 
-```bash
-git clone https://github.com/<your-username>/kolkata-weather-dashboard.git
-cd kolkata-weather-dashboard
-pip install -r requirements.txt
-```
+# 📁 Dataset
 
-### Run it
+The dashboard uses the following Kolkata weather dataset:
 
-```bash
-streamlit run app.py
-```
+**Kolkata Climate and Weather 2021–2025 — Daily Data**
 
-The app opens at `http://localhost:8501`.
+👉 [View Dataset on Kaggle](https://www.kaggle.com/datasets/sumanbera19/kolkata-climate-and-weather-20212025-daily-data)
 
-## 📦 requirements.txt
+The dataset contains daily weather observations including variables such as:
 
-```
-streamlit
-pandas
-numpy
-plotly
-```
+- Temperature
+- Maximum temperature
+- Minimum temperature
+- Rainfall
+- Precipitation
+- Precipitation hours
+- Sunshine duration
+- Wind speed / wind gusts
 
-## 🗂️ Project Structure
+---
 
-```
-.
-├── app.py                 # Main Streamlit dashboard
-├── kolkata_weather.csv    # Daily weather data (not included — bring your own)
+# 🛠️ Tech Stack
+
+| Technology | Purpose |
+|---|---|
+| 🐍 **Python** | Data analysis and application logic |
+| 🎈 **Streamlit** | Interactive dashboard |
+| 🐼 **Pandas** | Data manipulation and analysis |
+| 🔢 **NumPy** | Numerical operations |
+| 📊 **Plotly** | Interactive visualizations |
+| 📈 **Linear Regression** | Trend analysis |
+| 📄 **CSV** | Weather dataset |
+
+---
+
+# 🗂️ Project Structure
+
+```text
+Kolkata-Weather-Dashboard/
+│
+├── app.py
+│
+├── kolkata_weather.csv
+│
 ├── requirements.txt
-└── README.md
-```
-
-## 🎛️ Using the Dashboard
-
-- Drag the **year range** slider to zoom the whole dashboard into a specific window — every KPI, chart, and the closing summary update instantly.
-- Use **season focus** and **cold-snap window** to adjust how many extreme days show up in Chapter 2.
-- Hover any chart for exact values and dates; hover any card for a subtle lift-and-glow interaction.
-
-## ⚠️ Data Limitations
-
-- The record spans roughly 5 years — long enough to spot patterns, not long enough to confirm climate trends. Treat the trend numbers as early signals.
-- There's no humidity column in the source data, so Chapter 2 uses precipitation hours as a proxy, since humidity in Kolkata tracks closely with rainfall.
-
-## 🛠️ Built With
-
-- [Streamlit](https://streamlit.io/) — app framework
-- [Plotly](https://plotly.com/python/) — interactive charts
-- [Pandas](https://pandas.pydata.org/) / [NumPy](https://numpy.org/) — data wrangling and trend fitting
-
-## 📄 License
-
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
-
-## 🙌 Acknowledgements
-
-Weather data sourced from [Open-Meteo](https://open-meteo.com/), a free historical weather API.
+│
+├── README.md
+│
+└── LICENSE
