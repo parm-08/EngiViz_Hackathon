@@ -21,6 +21,12 @@
 <img width="933" height="593" alt="Screenshot 2026-09-14 122309" src="https://github.com/user-attachments/assets/cc99421d-09ce-408e-9ea2-ebc5d073151d" />
 <img width="917" height="661" alt="Screenshot 2026-09-14 122318" src="https://github.com/user-attachments/assets/717eed18-2b3e-4799-9adb-8556d055b697" />
 
+## SCREEN RECORDING
+
+
+https://github.com/user-attachments/assets/16d030cd-bba9-4548-bdf0-377f0c880a98
+
+
 
 ## 🧠 How the analysis works
 
