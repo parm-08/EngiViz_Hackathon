@@ -349,7 +349,7 @@ st.markdown(f"""
 
 @st.cache_data
 def load_data():
-    data = pd.read_csv("data/kolkata_weather.csv")
+    data = pd.read_csv("kolkata_weather.csv")
     data["time"] = pd.to_datetime(data["time"], errors="coerce")
     data = data.dropna(subset=["time"]).copy()
 
